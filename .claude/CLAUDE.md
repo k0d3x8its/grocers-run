@@ -17,10 +17,10 @@
 ## Skills
 **Plan & design**
 - `/brainstorm`   — design a feature from a rough idea (→ /grill-me → /write-plan)
-- `/grill-me`     — stress-test a design before building (→ findings.md)
-- `/write-plan`   — turn a grilled design into task_plan.md
-- `/plan`         — create/update task_plan.md
-- `/sync-trello`  — push task_plan.md Goals to the Grocer's Run board
+- `/grill-me`     — stress-test a design before building (→ .work/FINDINGS.md)
+- `/write-plan`   — turn a grilled design into .work/PLAN.md
+- `/plan`         — create/update .work/PLAN.md
+- `/sync-trello`  — push .work/PLAN.md Goals to the Grocer's Run board
 
 **Build, debug, verify**
 - `/tdd`              — red-green-refactor for features/bug fixes
@@ -42,9 +42,9 @@
 - `/checkpoint`                  — durable end-of-session log + triage
 
 ## Session Rules
-- Always read task_plan.md, findings.md, and progress.md if they exist
+- Always read .work/PLAN.md, .work/FINDINGS.md, and .work/PROGRESS.md if they exist
 - When I paste a re-entry prompt, treat it as ground truth for project state
 
 ## Current State
-See task_plan.md for active goals and progress.
-See session-log.md for recent session history.
+See .work/PLAN.md for active goals and progress.
+See .memory/SESSION-LOG.md for recent session history.
