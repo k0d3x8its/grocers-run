@@ -32,10 +32,26 @@ venv/
 .claude/settings.local.json
 .claude/plugins/
 .claude/skills/
-task_plan.md
-findings.md
-progress.md
+.work/PLAN.md
+.work/FINDINGS.md
+.work/PROGRESS.md
 session-log.md
 RELEASE-NOTES.md
 .vscode/
 .idea/
+
+# Memory system — runtime artifacts (machine-local, not source)
+/.memory/ARCHIVE-LOG.md
+/.memory/EPISODIC-INDEX.md
+/.memory/EPISODIC-ARCHIVE.md
+/.memory/CONSOLIDATION-INBOX.md
+.episodic-baseline
+.episodic.lock
+
+# git-crypt repo — override global ignore so encrypted files can commit
+!/KNOWLEDGE.md
+!/TODOS.md
+!/.memory/SESSION-LOG.md
+!/.work/PLAN.md
+!/.work/FINDINGS.md
+!/.work/PROGRESS.md
