@@ -8,3 +8,8 @@
 /TODOS.md                filter=git-crypt diff=git-crypt
 /.memory/SESSION-LOG.md  filter=git-crypt diff=git-crypt
 /.work/*                 filter=git-crypt diff=git-crypt
+
+# Design documents — encrypted to protect IP (GDD, PRD, ARD)
+/docs/GDD-*.md           filter=git-crypt diff=git-crypt
+/docs/PRD-*.md           filter=git-crypt diff=git-crypt
+/docs/ARD-*.md           filter=git-crypt diff=git-crypt
