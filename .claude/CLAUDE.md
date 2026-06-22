@@ -11,6 +11,17 @@
 - NEVER add `Co-Authored-By` lines to commit messages
 - Code comments: explain the why, not the what
 
+## git-crypt — Encrypted Files
+Commit message for ANY of these files must be ONLY `"updated <filename>"` — never describe contents.
+Encrypted files (per `.gitattributes`):
+- `KNOWLEDGE.md`
+- `TODOS.md`
+- `.memory/SESSION-LOG.md`
+- `.work/*` (PLAN.md, FINDINGS.md, PROGRESS.md)
+- `docs/GDD-*.md` — Game Design Documents (IP protection)
+- `docs/PRD-*.md` — Product Requirements Documents (IP protection)
+- `docs/ARD-*.md` — Architecture Requirements Documents (IP protection)
+
 ## Trello
 - Board: Grocer's Run
 
